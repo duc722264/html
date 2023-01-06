@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(241, 201, 233);
+    display: flex;
+}
+
+.page-details__container {
+    width: 146rem;
+    min-height: 68rem;
+    background-color: rgb(251, 238, 249);
+    margin: 4rem auto;
+}
+
+
+.page-details__header{
+    height: 40rem;
+}
+
+.page-details__nav{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-details__subnav ul{
+   display: flex;
+   list-style-type: none;
+   font-family: cursive;
+   padding: 0;
+}
+
+.page-details__subnav li {
+    font-size: 1.8rem;
+    padding: 0 4rem;
+}
+
+.page-details__subnav li a {
+    text-decoration: none;
+}
